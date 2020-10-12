@@ -47,5 +47,16 @@ public class Test {
             System.out.print("\n");
         }while(x1 <= 22);
 
+        for(int x2 = 10; x2<20; x2++){
+            System.out.println("value of x :" + x2);
+        }
+
+        int numbers [] = {10,20,30,40,50};
+        for(int x3 : numbers){
+            if(x3 == 30) continue;
+            System.out.print(x3);
+            System.out.print(',');
+        }
+
     }
 }
